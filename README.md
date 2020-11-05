@@ -1,1 +1,1 @@
-# kafka-evnt-kdriven-architecture
+# kafka-evnt-driven-architecture
