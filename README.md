@@ -18,7 +18,7 @@ Disadvantage: it is not scalable.
 
 Apache Kafka is a distributed streaming platform capable of handling trillions of events per day. Considering it's design, it gives you both the advantages of a queue message and a publish-subscriber service.
 
-## Kafka is used for:
+## Use Kafka:
 
 - If you need to move streams of data around in your system in real-time between applications.
 - If you need to identify events that happens in your system and then do something or trigger some workflow based on those events or streams of data.
@@ -60,5 +60,9 @@ In Kafka, the consumers are decoupled from the producers. Producers publish data
 
 Moreover, since the partitions are replicated for failover, data is implicit replicated. So, like I said before, with a replication factor N, Kafka guarantees no data loss for a maximum of N-1 failures. 
 
-References: https://dzone.com/articles/microservices-event-driven-architecture-and-kafka
+References:
+https://dzone.com/articles/microservices-event-driven-architecture-and-kafka
+https://koukia.ca/a-microservices-implementation-journey-part-6-9b818e491336
 
+Further read:
+https://data-flair.training/blogs/apache-kafka-tutorial/
